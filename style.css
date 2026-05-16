@@ -7,14 +7,32 @@
 
 h1 {
     display: flexbox;
-    font-family: "Monoton", sans-serif;
+    font-family: "Bungee", sans-serif;
     font-size: 200px;
     font-weight: 400;
     text-align: center;
     margin-left: 50px;
     margin-right: 50px;
-    margin-top: -5px;
+    margin-top: 25px;
     margin-bottom: 200px;
+    inline-size: -10px;
+      background: linear-gradient(
+    to right,
+    #4e76fa05,
+    #73a3f0,
+    #99bee3,
+    #c7bef3
+  );
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shine 3s linear infinite;
+}
+
+@keyframes shine {
+  to {
+    background-position: 200% center;
+  }
 }
 
 .button-container {
@@ -28,6 +46,7 @@ h1 {
     border-radius: 12px;
     gap: 10px;
     transition: all 0.8s ease;
+    margin-bottom: 110px;
 }
 
 .button-container:hover {
@@ -91,6 +110,11 @@ h2:hover {
 
 .party-body {
     background-image: url(background5.gif);
+    background-size: cover;
+}
+
+.sunday-body {
+    background-image: url(background6.gif);
     background-size: cover;
 }
 .playlist {
