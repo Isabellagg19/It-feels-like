@@ -1,6 +1,6 @@
 .main-page {
     background-size: cover;
-    background-color: #cdf8a9;
+    background-image: url(background-mainpage.jpg);
     display: flex;
     flex-direction: column;
 }
@@ -124,146 +124,94 @@ h1 {
     transform: translateY(-10px);
 }
 
-#icon {
+.icon1 {
+    position: absolute;
+    animation: bounce1 2s infinite alternate;
+}
+
+.icon2 {
+    position: absolute;
+    animation: bounce2 1s infinite alternate;
+}
+
+.a {
   width: 47px;
-  position: absolute;
   margin-top: 20px;
   margin-left: 15px;
-  transition: transform 0.6s ease;
 }
 
-#icon2 {
+.b {
     width: 40px;
-    position: absolute;
     margin-top: 220px;
     margin-left: 120px;
-    transition: transform 0.6s ease;
 }
 
-#icon3 {
+.c {
     width: 32px;
-    position: absolute;
     margin-top: 400px;
     margin-left: 40px;
-    transition: transform 0.6s ease;
 }
 
-#icon4 {
+.d {
     width: 50px;
-    position: absolute;
     margin-top: 600px;
     margin-left: 170px;
-    transition: transform 0.6s ease;
 }
 
-#icon5 {
+.e {
     width: 27px;
-    position: absolute;
     margin-top: 800px;
     margin-left: 20px;
-    transition: transform 0.6s ease;
 }
 
-#icon6 {
+.f {
     width: 35px;
-    position: absolute;
     margin-top: 1000px;
     margin-left: 100px;
-    transition: transform 0.6s ease;
 }
 
-#icon7 {
+.g {
     width: 40px;
-    position: absolute;
     margin-top: 20px;
     margin-left: 1400px;
-    transition: transform 0.6s ease;
 }
 
-#icon8 {
+.h {
     width: 30px;
-    position: absolute;
-    margin-top: 200px;
+    margin-top: 240px;
     margin-left: 1290px;
-    transition: transform 0.6s ease;
 }
 
-#icon9 {
+.i {
     width: 50px;
-    position: absolute;
     margin-top: 400px;
     margin-left: 1390px;
-    transition: transform 0.6s ease;
 }
 
-#icon10 {
+.j {
     width: 40px;
-    position: absolute;
     margin-top: 600px;
     margin-left: 1270px;
-    transition: transform 0.6s ease;
 }
 
-#icon11 {
+.k {
     width: 35px;
-    position: absolute;
     margin-top: 800px;
     margin-left: 1350px;
-    transition: transform 0.6s ease;
 }
 
-#icon12 {
+.l {
     width: 50px;
-    position: absolute;
     margin-top: 1000px;
     margin-left: 1250px;
-    transition: transform 0.6s ease;
 }
 
-#icon:hover {
-    transform: translateY(-10px);
+@keyframes bounce1 {
+    from {transform: translateY(0); }
+    to {transform: translateY(-20px);  }
 }
 
-#icon2:hover {
-    transform: translateY(-10px);
-}
-
-#icon3:hover {
-    transform: translateY(-10px);
-}
-
-#icon4:hover {
-    transform: translateY(-10px);
-}
-
-#icon5:hover {
-    transform: translateY(-10px);
-}
-
-#icon6:hover {
-    transform: translateY(-10px);
-}
-
-#icon7:hover {
-    transform: translateY(-10px);
-}
-
-#icon8:hover {
-    transform: translateY(-10px);
-}
-
-#icon9:hover {
-    transform: translateY(-10px);
-}
-
-#icon10:hover {
-    transform: translateY(-10px);
-}
-
-#icon11:hover {
-    transform: translateY(-10px);
-}
-
-#icon12:hover {
-    transform: translateY(-10px);
+@keyframes bounce2 {
+    from {transform: translateY(0); }
+    to {transform: translateY(-25px);  }
 }
