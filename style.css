@@ -15,8 +15,8 @@ h1 {
     background: linear-gradient(
     to left,
     #4e76fa05,
-    #73a3f0,
-    #99bee3,
+    #4273c0,
+    #83aed8,
     #8798b2
   );
   background-size: 200% auto;
@@ -135,74 +135,74 @@ h1 {
 }
 
 .a {
-  width: 47px;
+  width: 52px;
   margin-top: 20px;
   margin-left: 15px;
 }
 
 .b {
-    width: 40px;
+    width: 45px;
     margin-top: 220px;
     margin-left: 120px;
 }
 
 .c {
-    width: 32px;
+    width: 37px;
     margin-top: 400px;
     margin-left: 40px;
 }
 
 .d {
-    width: 50px;
+    width: 55px;
     margin-top: 600px;
     margin-left: 170px;
 }
 
 .e {
-    width: 27px;
+    width: 32px;
     margin-top: 800px;
     margin-left: 20px;
 }
 
 .f {
-    width: 35px;
-    margin-top: 1000px;
+    width: 40px;
+    margin-top: 900px;
     margin-left: 100px;
 }
 
 .g {
-    width: 40px;
+    width: 45px;
     margin-top: 20px;
     margin-left: 1400px;
 }
 
 .h {
-    width: 30px;
+    width: 35px;
     margin-top: 240px;
     margin-left: 1290px;
 }
 
 .i {
-    width: 50px;
+    width: 55px;
     margin-top: 400px;
     margin-left: 1390px;
 }
 
 .j {
-    width: 40px;
+    width: 45px;
     margin-top: 600px;
     margin-left: 1270px;
 }
 
 .k {
-    width: 35px;
+    width: 40px;
     margin-top: 800px;
     margin-left: 1350px;
 }
 
 .l {
-    width: 50px;
-    margin-top: 1000px;
+    width: 55px;
+    margin-top: 900px;
     margin-left: 1250px;
 }
 
@@ -214,4 +214,15 @@ h1 {
 @keyframes bounce2 {
     from {transform: translateY(0); }
     to {transform: translateY(-25px);  }
+}
+
+.container {
+    height: calc(100vh - 0px);
+    background-color: rgb(243, 243, 243);
+    display: block;
+    margin: 80px;
+    border: 3px solid black;
+    padding: 40px;
+    padding-bottom: 80px;
+    border-radius: 45px;
 }
