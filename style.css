@@ -234,8 +234,8 @@ h1 {
 
 .funfact-btn {
     font-family: "Dongle", sans-serif;
-    width: 400px;
-    font-size: 2px;
+    width: 350px;
+    font-size: 30px;
     color: #000000;
     border-radius: 90px;
     cursor: pointer;
@@ -250,12 +250,19 @@ h1 {
     transition: transform 0.2s ease, background-color 0.3s ease;
     }
 
-.a:hover {
+.a1:hover {
     transform: scale(1.1);
     background-color: #8791e2;
 }
 
 .facts1 {
+    font-family: "Sniglet", system-ui;
+    font-size: 35px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.maintext1 {
     font-family: "Sniglet", system-ui;
     font-size: 35px;
     font-weight: 400;
