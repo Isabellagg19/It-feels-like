@@ -13,7 +13,7 @@ h1 {
     margin-top: 20px;
     margin-bottom: -10px;
     background: linear-gradient(
-    to left,
+    to right,
     #4e76fa05,
     #4273c0,
     #83aed8,
@@ -226,10 +226,16 @@ h1 {
     max-width: 700px;
     margin: 30px auto;
     border-color: 2px  #3a3636;
+    animation:  bounce3 3s infinite alternate;
+}
+
+@keyframes bounce3{
+    from {transform: translateY(0);}
+    to {transform: translateY(-20px);}
 }
 
 .deepstudy {
-    background-color: rgb(103, 163, 209);
+    background-color: rgba(103, 163, 209, 0.822);
 }
 
 .funfact-btn {
@@ -247,12 +253,13 @@ h1 {
 
 .a1 {
     background-color: rgb(35, 72, 109);
-    transition: transform 0.2s ease, background-color 0.3s ease;
+    transition: all 0.3s ease;
     }
 
 .a1:hover {
     transform: scale(1.1);
     background-color: #8791e2;
+    box-shadow: 0 4px 6px #3a3636
 }
 
 .facts {
@@ -270,56 +277,60 @@ h1 {
 }
 
 .disney {
-    background-color: rgb(245, 192, 114);
+    background-color: rgba(245, 193, 114, 0.837);
 }
 
 .a2 {
     background-color: rgb(243, 163, 44);
-    transition: transform 0.2s ease, background-color 0.3s ease;
+    transition: all 0.3s ease;
 }
 
 .a2:hover {
     transform: scale(1.1);
     background-color: rgb(247, 214, 166);
+    box-shadow: 0 4px 6px #3a3636
 }
 
 .latina {
-    background-color: rgb(243, 239, 134);
+    background-color: rgba(243, 239, 134, 0.788);
 }
 
 .a3 {
     background-color: rgb(203, 198, 51);
-    transition: transform 0.2s ease, background-color 0.3s ease;
+    transition: all 0.3s ease;
 }
 
 .a3:hover {
     transform: scale(1.1);
     background-color: rgb(245, 243, 180);
+    box-shadow: 0 4px 6px #3a3636
 }
 
 .past {
-    background-color: rgb(205, 191, 120);
+    background-color: rgba(205, 191, 120, 0.822);
 }
 
 .a4 {
     background-color: rgb(168, 154, 86);
-    transition: transform 0.2s ease, background-color 0.3s ease;
+    transition: all 0.3s ease;
 }
 
 .a4:hover {
     transform: scale(1.1);
-    background-color: rgb(213, 201, 137);
+    background-color: rgb(245, 238, 204);
+    box-shadow: 0 4px 6px #3a3636
 }
 
 .sunday {
-    background-color: #5b7a99;
+    background-color: #5b7a99dc;
 }
 
 .a5 {
-    background-color: #50688a;
+    background-color: #3b4f6b;
 }
 
 .a5:hover {
     transform: scale(1.1);
     background-color: #aec7f0;
+    box-shadow: 0 4px 6px #3a3636
 }
