@@ -334,3 +334,57 @@ h1 {
     background-color: #aec7f0;
     box-shadow: 0 4px 6px #3a3636
 }
+
+.last {
+    font-family: "Unkempt", cursive;
+    font-weight: 700;
+    font-size: 45px;
+    color: black;
+    background-color: white;
+    border-radius: 50px;
+    margin-top: 15px;
+    margin-left: 70px;
+    margin-right: 70px;
+    text-align: center;
+    margin-bottom: 5px;
+    padding: 10px 15px;
+    animation: move1 3s infinite alternate;
+}
+
+@keyframes move1 {
+    from {transform: translateY(0);}
+    to {transform: translateY(-15px);}
+}
+
+.last2 {
+    font-family: "Titan One", sans-serif;
+    font-size: 80px;
+    letter-spacing: 10px;
+    color: white;
+    margin-top: 1px;
+    font-weight: 500;
+    text-align: center;
+    animation: move2 3.5s infinite alternate;
+}
+
+@keyframes move2 {
+    from {transform: translateY(0);}
+    to {transform: translateY(-20px);}
+}
+
+.credits {
+    position: fixed;
+    bottom: 10px;
+    right: 15px;
+    font-size: 20px;
+    font-family: "Dongle", sans-serif;
+    background-color: #88b2f6e1;
+    color: #000000;
+    padding: 10px 15px;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+}
+.credits:hover {
+    transform: translateY(-10px);
+    box-shadow:0 4px 8px #3a3636;
+}
