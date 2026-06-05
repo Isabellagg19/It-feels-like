@@ -61,8 +61,7 @@ h1 {
 .button-container {
   display: flex;
   flex-direction: column;
-  width: 800px;
-  background-color: #9cc3fd;
+  width: 600px;
   margin: 0 auto;
   padding: 10px;
   border-radius: 12px;
@@ -71,9 +70,9 @@ h1 {
 
 .btn {
   font-family: "rock-icons";
-  font-size: 150px;
+  font-size: 300px;
   color: #000000;
-  margin-bottom: 30px;
+  margin-bottom: -50px;
   text-decoration: none;
   transition: all 0.3s ease;
 }
@@ -86,28 +85,31 @@ h1 {
 
 .playlist-items1 {
   display: flex;
-  align-items: center; 
+  align-items: left; 
   gap: 40px;
+  margin-left: -20px;
 }
 
 .playlist-items2 {
   display: flex;
-  align-items: center; 
+  align-items: right; 
+  margin-left: 400px;
   gap: 50px;
-  margin-left: 390px;
 }
 
 
 .maintext {
-  font-family: "kaoly", serif;
-  font-size: 20px;
+  font-family: "typewriter", serif;
+  text-align: center;
+  font-size: 140px;
   font-weight: 500;
   color: white;
+  margin-bottom: 20px;
 }
 
 @font-face {
-    font-family: "kaoly";
-    src: url(fonts/Kaoly\ Demo-Regular.ttf) format("truetype");
+    font-family: "typewriter";
+    src: url(fonts/Mom«t___.ttf) format("truetype");
 
 }
 .deepstudy-body {
