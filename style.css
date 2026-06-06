@@ -61,7 +61,7 @@ h1 {
 .button-container {
   display: flex;
   flex-direction: column;
-  width: 600px;
+  width: 800px;
   margin: 0 auto;
   padding: 10px;
   border-radius: 12px;
@@ -72,7 +72,7 @@ h1 {
   font-family: "rock-icons";
   font-size: 300px;
   color: #000000;
-  margin-bottom: -50px;
+  margin-bottom: -70px;
   text-decoration: none;
   transition: all 0.3s ease;
 }
@@ -93,8 +93,43 @@ h1 {
 .playlist-items2 {
   display: flex;
   align-items: right; 
-  margin-left: 400px;
+  margin-left: 600px;
   gap: 50px;
+}
+
+.tooltip {
+    position: relative;
+    align-items: center;
+    cursor: pointer;
+}
+
+.tooltip .tooltip-text {
+    visibility: hidden;
+    font-size: 35px;
+    width: 200px;
+    background-color: rgba(14, 14, 14, 0);
+    font-family: "label", serif;
+    color: rgb(13, 13, 13);
+    text-align: center;
+    border-radius: 20px;
+    padding: 15px 15px;
+    position: absolute;
+    z-index: 1;
+    bottom: 86%;
+    left: 120px;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.tooltip:hover .tooltip-text {
+    visibility: visible;
+    opacity: 1;
+}
+
+@font-face {
+    font-family: label;
+    src: url(fonts/Impact\ Label.ttf);
 }
 
 
