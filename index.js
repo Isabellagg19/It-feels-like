@@ -15,3 +15,44 @@ function getRandomColor() {
 setInterval(() => {
     document.body.style.backgroundColor = getRandomColor();
 }, 6000);
+
+function typewriter(elementId, text, speed = 100) {
+    let i = 0;
+    const el= document.getElementById(elementId);
+     if (!el) return;
+
+    el.textContent = ""; 
+
+    function typing() {
+        if (i < text.length) {
+            el.textContent += text.charAt(i);
+            i++;
+            setTimeout(typing, speed);
+        }
+    }
+    typing();
+}
+
+document.getElementById("btn1").addEventListener("mouseenter", () => {
+typewriter("tooltip1", "Deep Study", 100);
+});
+
+document.getElementById("btn2").addEventListener("mouseenter", () => {
+typewriter("tooltip2", "Disney Nostalgia", 100);
+});
+
+document.getElementById("btn3").addEventListener("mouseenter", () => {
+typewriter("tooltip3", "Latina Party", 100);
+});
+
+document.getElementById("btn4").addEventListener("mouseenter", () => {
+typewriter("tooltip4", "Bring Back The Old Bangers", 100);
+});
+
+document.getElementById("btn5").addEventListener("mouseenter", () => {
+typewriter("tooltip5", "Sunday Chill", 100);
+});
+
+document.getElementById("btn6").addEventListener("mouseenter", () => {
+typewriter("tooltip6", "Workout Vibes", 100);
+});
