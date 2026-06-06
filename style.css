@@ -26,7 +26,7 @@
 }
 
 h1 {
-    font-family: "Playful", sans-serif;
+    font-family: "sweet", sans-serif;
     font-size: 200px;
     font-weight: 500;
     text-align: center;
@@ -38,8 +38,8 @@ h1 {
     to right,
     #4e76fa05,
     #4273c0,
-    #83aed8,
-    #8798b2
+    #618bb5,
+    #758bac
   );
   background-size: 200% auto;
   -webkit-background-clip: text;
@@ -54,8 +54,8 @@ h1 {
 }
 
 @font-face {
-    font-family: "Playful";
-    src: url("fonts/Chunky\ Playful.otf") format("truetype");
+    font-family: "sweet";
+    src: url("fonts/Sweet\ Magic.ttf") format("truetype");
 }
 
 .button-container {

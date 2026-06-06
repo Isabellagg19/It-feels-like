@@ -18,14 +18,14 @@ setInterval(() => {
 
 function typewriter(elementId, text, speed = 100) {
     let i = 0;
-    const el= document.getElementById(elementId);
-     if (!el) return;
+    const element= document.getElementById(elementId);
+     if (!element) return;
 
-    el.textContent = ""; 
+    element.textContent = ""; 
 
     function typing() {
         if (i < text.length) {
-            el.textContent += text.charAt(i);
+            element.textContent += text.charAt(i);
             i++;
             setTimeout(typing, speed);
         }
