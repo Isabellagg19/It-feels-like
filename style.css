@@ -407,6 +407,19 @@ h1 {
     box-shadow: 0 4px 6px #3a3636
 }
 
+.workout {
+    background-color: rgba(81, 155, 81, 0.79);
+}
+
+.a6 {
+    background-color: rgb(31, 85, 31);
+}
+
+.a6:hover {
+    transform: scale(1.1);
+    background-color: rgba(117, 199, 117, 0.9);
+    box-shadow: 0 4px 6px #3a3636
+}
 .last {
     font-family: "Unkempt", cursive;
     font-weight: 700;
