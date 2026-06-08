@@ -1,20 +1,21 @@
-const colors = [
-    "#a8bcf8a2",
-    "#b5f9e1",
-    "#e5c0f7a0",
-    "#f4a5beb6",
-    "#f6d8919f",
-    "#f39494a3"
+const background = [
+    'url("backgrounds/background1-main.jpg")',
+    'url("backgrounds/background2-main.jpg")',
+    'url("backgrounds/background3-main.jpg")',
+    'url("backgrounds/background4-main.jpg")',
+    'url("backgrounds/background5-main.jpg")'
 ];
 
-function getRandomColor() {
-    const index = Math.floor(Math.random() * colors.length);
-    return colors[index]
+function getRandomBackground() {
+  const index = Math.floor(Math.random() * background.length);
+  return background[index];
 }
 
+document.body.style.backgroundImage = getRandomBackground();
+
 setInterval(() => {
-    document.body.style.backgroundColor = getRandomColor();
-}, 6000);
+  document.body.style.backgroundImage = getRandomBackground();
+}, 7000);
 
 function typewriter(elementId, text, speed = 100) {
     let i = 0;

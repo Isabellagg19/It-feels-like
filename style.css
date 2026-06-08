@@ -1,38 +1,38 @@
 .main-page {
     background-size: cover;
-    background-color: #f6a4a9;
     display: flex;
     flex-direction: column;
-    transition: background-color 1s ease;
+    transition: background 1s ease;
 }
 
 .title span {
   display: inline-block;
-  font-size: 130px;
-  font-weight: 400;
-  color: #1a3d7c;
+  font-size: 150px;
+  font-weight: 500;
+  color: #060707;
   animation: wave 3s infinite ease-in-out;
 }
 
 @keyframes wave{
-  0%   { transform: translateY(0); }
-  50% { transform: translateY(-15px); }
-  100% { transform: translateY(0)px; }
+  0%   { transform: translateY(0); color: #000000; }
+  50% { transform: translateY(-20px); color: #7186f3; }
+  75% { color: #091c7d;;}
+  100% { transform: translateY(0)px; color: #000000;}
 }
 
-.animated-title span:nth-child(1) { animation-delay: 0s; }
-.animated-title span:nth-child(2) { animation-delay: 4s; }
-.animated-title span:nth-child(3) { animation-delay: 8s; }
-.animated-title span:nth-child(4) { animation-delay: 12s; }
-.animated-title span:nth-child(5) { animation-delay: 16s; }
-.animated-title span:nth-child(6) { animation-delay: 20s; }
-.animated-title span:nth-child(7) { animation-delay: 24s; }
-.animated-title span:nth-child(8) { animation-delay: 28s; }
-.animated-title span:nth-child(9) { animation-delay: 32s; }
-.animated-title span:nth-child(10){ animation-delay: 36s; }
-.animated-title span:nth-child(11){ animation-delay: 40s; }
-.animated-title span:nth-child(12){ animation-delay: 44s; }
-.animated-title span:nth-child(13){ animation-delay: 48s; }
+.title span:nth-child(1) { animation-delay: 0s; }
+.title span:nth-child(2) { animation-delay: 0.2s; }
+.title span:nth-child(3) { animation-delay: 0.4s; }
+.title span:nth-child(4) { animation-delay: 0.6s; }
+.title span:nth-child(5) { animation-delay: 0,8s; }
+.title span:nth-child(6) { animation-delay: 1s; }
+.title span:nth-child(7) { animation-delay: 1.2s; }
+.title span:nth-child(8) { animation-delay: 1.4s; }
+.title span:nth-child(9) { animation-delay: 1.6s; }
+.title span:nth-child(10){ animation-delay: 1.8s; }
+.title span:nth-child(11){ animation-delay: 2s; }
+.title span:nth-child(12){ animation-delay: 2.2s; }
+.title span:nth-child(13){ animation-delay: 2.4s; }
 
 
 .icon {
@@ -53,10 +53,10 @@ h1 {
     font-size: 200px;
     font-weight: 500;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 10px;
     margin-left: 20px;
     margin-right: 20px;
-    margin-bottom: -10px;
+    margin-bottom: 6px;
     color: #3b4f6b;
 }
 
@@ -78,16 +78,21 @@ h1 {
 
 .btn {
   font-family: "rock-icons";
-  font-size: 300px;
+  font-size: 270px;
   color: #000000;
-  margin-bottom: -70px;
+  margin-bottom: -100px;
   text-decoration: none;
   transition: all 0.3s ease;
+  background-color: white;
+  width: fit-content;
+  padding: 20px 50px;
+  border-radius: 999px;
 }
 
 .btn:hover {
     transform:translateY(-10px);
-    color: #191454c8;
+    color: #fbfafeed;
+    background-color: rgba(13, 8, 8, 0.945);
 }
 
 
@@ -123,7 +128,7 @@ h1 {
     padding: 15px 15px;
     position: absolute;
     z-index: 1;
-    bottom: 86%;
+    bottom: 108%;
     left: 120px;
     transform: translateX(-50%);
     opacity: 0;
@@ -142,43 +147,45 @@ h1 {
 
 
 .maintext {
-  font-family: "typewriter", serif;
+  font-family: 'Special Elite';
   text-align: center;
   font-size: 140px;
   font-weight: 500;
   color: white;
   margin-bottom: 20px;
+  margin-top: 30px;
 }
 
-@font-face {
-    font-family: "typewriter";
-    src: url(fonts/Mom«t___.ttf) format("truetype");
-
-}
 .deepstudy-body {
-    background-image: url(background2.gif);
+    background-image: url(/backgrounds/background-deep-study.gif);
     background-size: cover;
 }
 
 .disney-body {
-    background-image: url(background3.gif);
+    background-image: url(/backgrounds/background3.gif);
     background-size: cover;
 }
 
 .past-body {
-    background-image: url(background4.gif);
+    background-image: url(/backgrounds/background4-main.jpg);
     background-size: cover;
 }
 
 .party-body {
-    background-image: url(background5.gif);
+    background-image: url(/backgrounds/background5.gif);
     background-size: cover;
 }
 
 .sunday-body {
-    background-image: url(background6.gif);
+    background-image: url(/backgrounds/background6.gif);
     background-size: cover;
 }
+
+.workout-body {
+    background-image: url(/backgrounds/background7.gif);
+    background-size: cover;
+}
+
 .playlist {
   display: flex;
   justify-content: center;
@@ -407,11 +414,11 @@ h1 {
     color: black;
     background-color: white;
     border-radius: 50px;
-    margin-top: 15px;
+    margin-top: 90px;
     margin-left: 70px;
     margin-right: 70px;
     text-align: center;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     padding: 10px 15px;
     animation: move1 3s infinite alternate;
 }
@@ -433,8 +440,8 @@ h1 {
 }
 
 @keyframes move2 {
-    from {transform: translateY(0);}
-    to {transform: translateY(-20px);}
+    from {transform: translateY(0); color: white;}
+    to {transform: translateY(-20px); color: #091c7d;}
 }
 
 .credits {

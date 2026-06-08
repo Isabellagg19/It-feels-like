@@ -18,3 +18,4 @@ typewriter("message2", "Disney Nostalgia", 70);
 typewriter("message3", "Latina Party", 100);
 typewriter("message4", "Bring Back The Old Bangers", 60);
 typewriter("message5", "Sunday Chill", 100);
+typewriter("message6", "Workout Vibes", 100);
