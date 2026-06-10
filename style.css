@@ -473,3 +473,33 @@ h1 {
     transform: translateY(-10px);
     box-shadow:0 4px 8px #3a3636;
 }
+
+.suggestion-box {
+  background-color: #689cdfe8;
+  padding: 15px;
+  border-radius: 12px;
+  width: 660px;
+  margin: 20px auto;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.suggestion-song {
+    font-family: "keepon";
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    letter-spacing: 4px;
+}
+
+@font-face {
+    font-family: keepon;
+    src: url(fonts/KeeponTruckin.ttf);
+}
+
+.suggestion-song1 {
+    font-family: "Quicksand", sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    letter-spacing: 2px;
+}
