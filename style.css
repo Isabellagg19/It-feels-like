@@ -167,7 +167,7 @@ h1 {
 }
 
 .past-body {
-    background-image: url(/backgrounds/background4-main.jpg);
+    background-image: url(/backgrounds/background4.gif);
     background-size: cover;
 }
 
@@ -475,7 +475,6 @@ h1 {
 }
 
 .suggestion-box {
-  background-color: #689cdfe8;
   padding: 15px;
   border-radius: 12px;
   width: 660px;
@@ -502,4 +501,28 @@ h1 {
     text-align: center;
     color: white;
     letter-spacing: 2px;
+}
+
+.aa {
+    background-color: #689cdfe8;
+}
+
+.bb {
+    background-color: #dfaf68e8;
+}
+
+.cc {
+    background-color: #d4ce74e8;
+}
+
+.dd {
+    background-color: #e9e5afe8;
+}
+
+.ee {
+    background-color: #151f6de8;  
+}
+
+.ff {
+    background-color: #167433e8
 }

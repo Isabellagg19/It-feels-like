@@ -43,11 +43,11 @@ typewriter("tooltip2", "Disney Nostalgia", 100);
 });
 
 document.getElementById("btn3").addEventListener("mouseenter", () => {
-typewriter("tooltip3", "Latina Party", 100);
+typewriter("tooltip3", "Bring Back The Old Bangers", 100);
 });
 
 document.getElementById("btn4").addEventListener("mouseenter", () => {
-typewriter("tooltip4", "Bring Back The Old Bangers", 100);
+typewriter("tooltip4", "Latina Party", 100);
 });
 
 document.getElementById("btn5").addEventListener("mouseenter", () => {
