@@ -563,3 +563,42 @@ h1 {
 .ff {
     background-color: #167433e8
 }
+
+.message-wall {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  text-align: center;
+  align-items: center;
+  margin: 20px auto;
+  width: 800px;
+}
+
+.message-wall:hover {
+    transform: translateY(-15px);
+}
+
+.wall-title{
+    font-family: keepon;
+    font-size: 50px;
+    color: #000000;
+    transition: transform 0.4s ease;
+}
+
+.wall-title:hover {
+    transform: translateY(-15px);
+}
+
+.wall-text {
+    font-family: "Quicksand", sans-serif;
+    font-size: 20px;
+    color: #000000d1;
+    margin-bottom: 15px;
+    letter-spacing: 3px;
+    transition: transform 0.4s ease;
+}
+
+.wall-text:hover {
+    transform: translateY(-10px);
+}
