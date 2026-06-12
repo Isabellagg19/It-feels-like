@@ -278,6 +278,42 @@ h1 {
     margin-left: 1250px;
 }
 
+.m {
+    width: 45px;
+    margin-top: 1200px;
+    margin-left: 1350px;
+}
+
+.n {
+    width: 50px;
+    margin-top: 1115px;
+    margin-left: 120px;
+}
+
+.o {
+     width: 55px;
+    margin-top: 1400px;
+    margin-left: 1250px;
+}
+
+.p {
+    width: 45px;
+    margin-top: 1650px;
+    margin-left: 1300px;
+}
+
+.q {
+    width: 45px;
+    margin-top: 1350px;
+    margin-left: 140px;
+}
+
+.r{
+    width: 55px;
+    margin-top: 1650px;
+    margin-left: 90px;
+}
+
 @keyframes bounce1 {
     from {transform: translateY(0); }
     to {transform: translateY(-20px);  }
@@ -501,6 +537,7 @@ h1 {
     text-align: center;
     color: white;
     letter-spacing: 2px;
+    margin-bottom: 20px;
 }
 
 .aa {
